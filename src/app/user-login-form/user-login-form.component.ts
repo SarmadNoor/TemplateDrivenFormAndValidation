@@ -11,13 +11,14 @@ export class UserLoginFormComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
   roles = ['Admin', 'Developer', 'QA'];
   model = new UserLogin(); 
-  validated:boolean = false;
+  //validated:boolean = false;
   onSubmit() {
-    this.validated = true;
+    //this.validated = true;
   }
 
 }
