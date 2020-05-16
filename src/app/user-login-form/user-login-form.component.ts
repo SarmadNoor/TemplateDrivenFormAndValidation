@@ -16,9 +16,10 @@ export class UserLoginFormComponent implements OnInit {
 
   roles = ['Admin', 'Developer', 'QA'];
   model = new UserLogin(); 
-  //validated:boolean = false;
+  validated:string = "Validation successful";
   onSubmit() {
-    //this.validated = true;
+    this.validated = "Button Clicked";
+    console.log(this.validated);
   }
 
 }
